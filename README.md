@@ -1,21 +1,42 @@
 # Graph-Tutorial
-Repositório contendo um tutorial sobre grafos. Criado para a atividade 1 da disciplina de Algoritmos e Estrutura de Dados II.
 
-Nos arquivos desse repositório, encontra-se um notebook Jupyter, um tutorial sobre o uso do NetworkX e a criação de grafos no formato "Hands On".
+Repositório contendo um tutorial sobre grafos, criado para a atividade 1 da disciplina de **Algoritmos e Estrutura de Dados II**.
 
-O notebook foi criado com o auxilio da ferramenta de IA, ChatGPT, utilizando o modelo o3-mini com a opção "Refletir" ativada, a fim de se obter a melhor resposta possivel.
+## Conteúdo do Repositório
 
-Três arquivos foram enviados com o prompt utilizado para contextualizar e prover o dados necessários para que a IA pudesse executar sua tarefa. O primeiro foi um pdf contendo os capitulos 2, 3, 6 e 7 do livro "The Atlas For The Aspiring Network Scientist", utilizados para contextualizar o tema do notebook. O segundo arquivo foi um notebook Jupyter com um tutorial do NetworkX, servindo como base para o novo tutorial. Por fim, foi adicionada uma imagem que descreve a metodologia de aprendizado que deveria ser aplicada durante a realização da tarefa.
+Este repositório inclui:
+- Um **notebook Jupyter** contendo um tutorial no formato "Hands On" sobre o uso do **NetworkX** e a criação de grafos.
+- Arquivos auxiliares utilizados no processo de geração do notebook.
 
-O prompt utilizado tem como base o formato recomendado para o uso do ChatGPT, dividindo-se em, objetivo, tipo de retorno, restrições e contextualização. Dessa forma, o seguinte prompt foi utilizado:
+## Geração do Notebook
 
+O notebook foi criado com o auxílio da ferramenta de IA **ChatGPT**, utilizando o modelo **o3-mini** com a opção **"Refletir"** ativada, para obter a melhor resposta possível.
 
-Eu quero criar um novo tutorial Notebook jupyter no estilo "Hands on". O tutorial deve ter sessões de explicação, sessões de código para serem executados e exemplos para que o usuário possa treinar. 
+Três arquivos foram enviados como contexto para a IA:
+1. **Um PDF contendo os capítulos 2, 3, 6 e 7 do livro _The Atlas For The Aspiring Network Scientist_**, utilizados para contextualizar o tema do notebook.
+2. **Um notebook Jupyter** com um tutorial do NetworkX, que serviu como base para a criação do novo tutorial.
+3. **Uma imagem** descrevendo a metodologia de aprendizado que deveria ser aplicada no tutorial.
 
-Para isso, retorne um notebook jupyter.
+## Estrutura do Prompt Utilizado
 
-Crie um notebook diferente do que foi enviado e tome cuidado para que os exemplos estejam corretos e funcionando. 
+O prompt utilizado seguiu o formato recomendado para uso eficiente do ChatGPT, incluindo:
+- **Objetivo**
+- **Tipo de retorno esperado**
+- **Restrições**
+- **Contextualização**
 
-Para contexto: Utilize o notebook (NetworkElementsI.ipynb) enviado como inspiração para o novo tutorial que será criado. Também use as informações disponíveis nos capítulos do PDF enviado (livrocut.pdf) para desenvolver o novo tutorial. Utilize também a imagem enviada como base para a metodologia de aprendizado que será usada no tutorial.
+### Prompt Utilizado:
+```text
+Eu quero criar um novo tutorial Notebook Jupyter no estilo "Hands On". O tutorial deve ter seções de explicação, seções de código para serem executados e exemplos para que o usuário possa treinar.
 
-O notebook gerado encontra-se disponivel na main do repositório, enquanto os arquivos utilizados para gera-lo estão na pasta "prompt".
+Para isso, retorne um notebook Jupyter.
+
+Crie um notebook diferente do que foi enviado e tome cuidado para que os exemplos estejam corretos e funcionando.
+
+Para contexto: Utilize o notebook (NetworkElementsI.ipynb) enviado como inspiração para o novo tutorial que será criado. Também use as informações disponíveis nos capítulos do PDF enviado (livrocut.pdf) para desenvolver o novo tutorial. Utilize também a imagem enviada como base para a metodologia de aprendizado que será usada no tutorial.
+````
+
+## Localização dos Arquivos
+
+- **O notebook gerado encontra-se na main do repositório.**
+- **Os arquivos utilizados para sua geração estão armazenados na pasta "prompt".**
